@@ -1,0 +1,16 @@
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\bin\Debug\net8.0-windows\Baufinanzierungsrechner.exe
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\bin\Debug\net8.0-windows\Baufinanzierungsrechner.deps.json
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\bin\Debug\net8.0-windows\Baufinanzierungsrechner.runtimeconfig.json
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\bin\Debug\net8.0-windows\Baufinanzierungsrechner.dll
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\bin\Debug\net8.0-windows\Baufinanzierungsrechner.pdb
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\Baufinanzierungsrechner.Form1.resources
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\Baufinanzierungsrechner.csproj.GenerateResource.cache
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\Baufinanzierungsrechner.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\Baufinanzierungsrechner.AssemblyInfoInputs.cache
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\Baufinanzierungsrechner.AssemblyInfo.cs
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\Baufinanzierungsrechner.csproj.CoreCompileInputs.cache
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\Baufinanzierungsrechner.dll
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\refint\Baufinanzierungsrechner.dll
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\Baufinanzierungsrechner.pdb
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\Baufinanzierungsrechner.genruntimeconfig.cache
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\ref\Baufinanzierungsrechner.dll
