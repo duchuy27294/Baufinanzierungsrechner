@@ -14,14 +14,15 @@ namespace Baufinanzierungsrechner.Model {
 		private double anfangszinssatz;
 		private double zinssatz;
 		private int sollzinsbindungslaufzeit;
-		private double tilgungsrate;
-		private double monatsrate;
+		private double tilgungsrateProzent;
+		private double jaehrlicheSondertilgung;
 		private Tilgungsplan tilgungsplan;
 
 		public event PropertyChangedEventHandler? PropertyChanged;
 
 		public RechnerImpl(DateTime start, double kaufpreis, double eigenkapital, double grunderwerbssteuerProzent, double notarkostenProzent,
-						  double grundbucheintragProzent, double maklerprovision, double anfangszinssatz, double zinssatz, double tilgungsrate) {
+						  double grundbucheintragProzent, double maklerprovision, double anfangszinssatz, double zinssatz, double tilgungsrateProzent,
+						  double jaehrlicheSondertilgung = 0) {
 			this.start = start;
 			this.kaufpreis = kaufpreis;
 			this.eigenkapital = eigenkapital;
@@ -31,15 +32,16 @@ namespace Baufinanzierungsrechner.Model {
 			this.maklerprovision = maklerprovision;
 			this.anfangszinssatz = anfangszinssatz;
 			this.zinssatz = zinssatz;
-			this.tilgungsrate = tilgungsrate;
-			this.monatsrate = (this.kaufpreis + this.Kaufnebenkosten - this.eigenkapital) * (this.tilgungsrate + this.zinssatz) / (12 * 100);
-			this.tilgungsplan = TilgungsplanFactory.CreateTilgungsplan(this.start, this.sollzinsbindungslaufzeit, this.kaufpreis + this.Kaufnebenkosten - this.eigenkapital,
-								this.monatsrate, this.zinssatz);
+			this.tilgungsrateProzent = tilgungsrateProzent;
+			this.jaehrlicheSondertilgung = jaehrlicheSondertilgung;
+			this.UpdateTilgungsplan();
 		}
+
 		public DateTime Start {
 			get => this.start;
 			set {
 				this.start = value;
+				this.UpdateTilgungsplan();
 				this.notifyPropertyChanged("Start");
 			}
 		}
@@ -47,6 +49,7 @@ namespace Baufinanzierungsrechner.Model {
 			get => this.kaufpreis;
 			set {
 				this.kaufpreis = value;
+				this.UpdateTilgungsplan();
 				this.notifyPropertyChanged("Kaufpreis");
 			}
 		}
@@ -54,6 +57,7 @@ namespace Baufinanzierungsrechner.Model {
 			get => this.eigenkapital;
 			set {
 				this.eigenkapital = value;
+				this.UpdateTilgungsplan();
 				this.notifyPropertyChanged("Eigenkapital");
 			}
 		}
@@ -61,6 +65,7 @@ namespace Baufinanzierungsrechner.Model {
 			get => this.grunderwerbssteuerProzent;
 			set {
 				this.grunderwerbssteuerProzent = value;
+				this.UpdateTilgungsplan();
 				this.notifyPropertyChanged("GrunderwerbssteuerProzent");
 			}
 		}
@@ -69,6 +74,7 @@ namespace Baufinanzierungsrechner.Model {
 			get => this.notarkostenProzent;
 			set {
 				this.notarkostenProzent = value;
+				this.UpdateTilgungsplan();
 				this.notifyPropertyChanged("NotarkostenProzent");
 			}
 		}
@@ -77,6 +83,7 @@ namespace Baufinanzierungsrechner.Model {
 			get => this.grundbucheintragProzent;
 			set {
 				this.grundbucheintragProzent = value;
+				this.UpdateTilgungsplan();
 				this.notifyPropertyChanged("GrundbucheintragProzent");
 			}
 		}
@@ -85,6 +92,7 @@ namespace Baufinanzierungsrechner.Model {
 			get => this.maklerprovision;
 			set {
 				this.maklerprovision = value;
+				this.UpdateTilgungsplan();
 				this.notifyPropertyChanged("Maklerprovision");
 			}
 		}
@@ -93,6 +101,7 @@ namespace Baufinanzierungsrechner.Model {
 			get => this.anfangszinssatz;
 			set {
 				this.anfangszinssatz = value;
+				this.UpdateTilgungsplan();
 				this.notifyPropertyChanged("Anfangszinssatz");
 			}
 		}
@@ -100,6 +109,7 @@ namespace Baufinanzierungsrechner.Model {
 			get => this.zinssatz;
 			set {
 				this.zinssatz = value;
+				this.UpdateTilgungsplan();
 				this.notifyPropertyChanged("Zinssatz");
 			}
 		}
@@ -107,27 +117,24 @@ namespace Baufinanzierungsrechner.Model {
 			get => this.sollzinsbindungslaufzeit;
 			set {
 				this.sollzinsbindungslaufzeit = value;
+				this.UpdateTilgungsplan();
 				this.notifyPropertyChanged("Sollzinsbindungslaufzeit");
 			}
 		}
-		public double Tilgungsrate {
-			get => this.tilgungsrate;
+		public double TilgungsrateProzent {
+			get => this.tilgungsrateProzent;
 			set {
-				tilgungsrate = value;
-				monatsrate = (kaufpreis + Kaufnebenkosten - eigenkapital) * (tilgungsrate + zinssatz) / (12 * 100);
-				this.tilgungsplan = TilgungsplanFactory.CreateTilgungsplan(this.start, this.sollzinsbindungslaufzeit, this.kaufpreis + this.Kaufnebenkosten - this.eigenkapital,
-								this.monatsrate, this.zinssatz);
-				this.notifyPropertyChanged("Tilgungsrate");
+				this.tilgungsrateProzent = value;
+				this.UpdateTilgungsplan();
+				this.notifyPropertyChanged("TilgungsrateProzent");
 			}
 		}
-		public double Monatsrate {
-			get => this.monatsrate;
+		public double Tilgungsrate {
+			get => (this.kaufpreis + Kaufnebenkosten - this.eigenkapital) * (this.tilgungsrateProzent + zinssatz) / (12 * 100);
 			set {
-				monatsrate = value;
-				tilgungsrate = (monatsrate * 12 * 100) / (kaufpreis + Kaufnebenkosten - eigenkapital) - zinssatz;
-				this.tilgungsplan = TilgungsplanFactory.CreateTilgungsplan(this.start, this.sollzinsbindungslaufzeit, this.kaufpreis + this.Kaufnebenkosten - this.eigenkapital,
-								this.monatsrate, this.zinssatz);
-				this.notifyPropertyChanged("Monatsrate");
+				this.tilgungsrateProzent = (value * 12 * 100) / (kaufpreis + Kaufnebenkosten - eigenkapital) - zinssatz;
+				this.UpdateTilgungsplan();
+				this.notifyPropertyChanged("TilgungsrateProzent");
 			}
 		}
 
@@ -142,6 +149,23 @@ namespace Baufinanzierungsrechner.Model {
 			get => this.tilgungsplan.Restschuld;
 		}
 
+		public double JaehrlicheSondertilgung {
+			get => this.jaehrlicheSondertilgung;
+			set {
+				this.jaehrlicheSondertilgung = value;
+				this.UpdateTilgungsplan();
+				this.notifyPropertyChanged("JaehrlicheSondertilgung");
+			}
+		}
+
+		public double JaehrlicheSondertilgungProzent {
+			get => (this.jaehrlicheSondertilgung / this.Nettodarlehen) * 100;
+		}
+
+		public double Nettodarlehen {
+			get => (this.kaufpreis + this.Kaufnebenkosten - this.eigenkapital);
+		}
+
 		public Tilgungsplan Tilgungsplan => this.tilgungsplan;
 
 		public void StandardSetzen() {
@@ -152,17 +176,21 @@ namespace Baufinanzierungsrechner.Model {
 			this.maklerprovision = Rechner.STANDARD_MAKLERPROVISION_PROZENT;
 			this.anfangszinssatz = Rechner.STANDARD_ZINSSATZ_PROZENT;
 			this.zinssatz = Rechner.STANDARD_ZINSSATZ_PROZENT;
-			this.tilgungsrate = Rechner.STANDARD_TILGUNGSRATE_PROZENT;
+			this.tilgungsrateProzent = Rechner.STANDARD_TILGUNGSRATE_PROZENT;
 			this.Sollzinsbindungslaufzeit = Rechner.STANDARD_SOLLZINSBINDUNGSLAUFZEIT;
-			this.monatsrate = (this.kaufpreis + this.Kaufnebenkosten - this.eigenkapital) * (this.tilgungsrate + this.zinssatz) / (12 * 100);
-			this.tilgungsplan = TilgungsplanFactory.CreateTilgungsplan(this.start, this.sollzinsbindungslaufzeit, this.kaufpreis + this.Kaufnebenkosten - this.eigenkapital,
-								this.monatsrate, this.zinssatz);
+			this.tilgungsplan = TilgungsplanFactory.CreateTilgungsplan(this.start, this.sollzinsbindungslaufzeit,
+								this.kaufpreis + this.Kaufnebenkosten - this.eigenkapital, this.tilgungsrateProzent, this.zinssatz);
 		}
 
 		private void notifyPropertyChanged([CallerMemberName] string propertyName = "") {
 			if (PropertyChanged != null) {
 				PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
+		}
+
+		private void UpdateTilgungsplan() {
+			this.tilgungsplan = TilgungsplanFactory.CreateTilgungsplan(this.start, this.sollzinsbindungslaufzeit, this.kaufpreis + this.Kaufnebenkosten - this.eigenkapital,
+								this.Tilgungsrate, this.zinssatz, jaehrlicheSondertilgung);
 		}
 	}
 }

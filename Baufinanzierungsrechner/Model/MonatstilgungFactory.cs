@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Baufinanzierungsrechner.Model {
 	public static class MonatstilgungFactory {
-		public static Monatstilgung CreatMonatstilgung(double raten, double zinsProzent, DateTime zeitpunkt, double restschuldVormonat) {
-			return new MonatstilgungImpl(raten, zinsProzent, zeitpunkt, restschuldVormonat);
+		public static Monatstilgung CreatMonatstilgung(double raten, double zinsProzent, DateTime zeitpunkt, double restschuldVormonat, double sondertilgung = 0) {
+			return new MonatstilgungImpl(raten, zinsProzent, zeitpunkt, restschuldVormonat, sondertilgung);
 		}
 	}
 }

@@ -18,10 +18,13 @@ namespace Baufinanzierungsrechner.Model {
 		public double Zinssatz {  get; set; }
 		public int Sollzinsbindungslaufzeit { get; set; }
 		public double Tilgungsrate { get; set; }
-		public double Monatsrate { get; set; }
+		public double TilgungsrateProzent { get; set; }
 		public double Kaufnebenkosten {  get; }
 		public double Restschuld { get; }
+		public double JaehrlicheSondertilgung { get; set; }
+		public double JaehrlicheSondertilgungProzent { get; set; }
 		public Tilgungsplan Tilgungsplan { get; }
+		public double Nettodarlehen { get; }
 		public void StandardSetzen();
 
 		public const double STANDARD_GRUNDERWERBSSTEUER_PROZENT = 3.5;

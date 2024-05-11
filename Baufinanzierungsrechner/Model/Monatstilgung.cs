@@ -9,6 +9,6 @@ namespace Baufinanzierungsrechner.Model
 		public double RestschuldVormonat { get; set; }
 		public double Restschuld { get; }
 		public double Raten { get; }
-		public Sondertilgung? Sondertilgung { get; set; }
+		public double Sondertilgung { get; }
 	}
 }

@@ -9,18 +9,18 @@ namespace Baufinanzierungsrechner.Model
 		private Zins zins;
 		private DateTime? zeitpunkt;
 		private double restschuldVormonat;
-		private Sondertilgung? sondertilgung;
+		private double sondertilgung;
 
 		public event PropertyChangedEventHandler? PropertyChanged;
 
-		public MonatstilgungImpl(double raten, double zinsProzent, DateTime zeitpunkt, double restschuldVormonat) {
+		public MonatstilgungImpl(double raten, double zinsProzent, DateTime zeitpunkt, double restschuldVormonat, double sondertilgung = 0) {
 			this.raten = raten;
 			this.restschuldVormonat = restschuldVormonat;
 			this.zins = this.ZinsBerechnen(zinsProzent, restschuldVormonat);
 			this.zeitpunkt = zeitpunkt;
 			this.tilgung = this.raten - zins.Wert;
 			this.zeitpunkt = zeitpunkt;
-			this.sondertilgung = null;
+			this.sondertilgung = sondertilgung;
 		}
 
 		public double Tilgung=> this.tilgung;
@@ -47,22 +47,13 @@ namespace Baufinanzierungsrechner.Model
 		}
 
 		public double Restschuld {
-			get {
-				if (this.sondertilgung is not null) {
-					return (this.RestschuldVormonat - this.sondertilgung.Wert - this.Raten + this.zins.Wert);
-				}
-				else return (this.RestschuldVormonat - this.Raten + this.zins.Wert);
-			}
+			get => (this.RestschuldVormonat - this.Raten - this.sondertilgung + this.zins.Wert);
 		}
 
 		public double Raten => this.raten;
 
-		public Sondertilgung? Sondertilgung {
+		public double Sondertilgung {
 			get => this.sondertilgung;
-			set {
-				this.sondertilgung = value;
-				this.notifyPropertyChanged("Sondertilgung");
-			}
 		}
 
 		private Zins ZinsBerechnen(double zinsProzent, double restschuldVormonat) {

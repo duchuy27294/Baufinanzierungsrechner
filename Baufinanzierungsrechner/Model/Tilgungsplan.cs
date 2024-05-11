@@ -8,5 +8,6 @@
 		public List<Monatstilgung> Monatstilgung { get; }
 		public double Raten { get; }
 		public double Zinssatz { get; }
+		public double JaehrlicheSondertilgung { get; }
 	}
 }
