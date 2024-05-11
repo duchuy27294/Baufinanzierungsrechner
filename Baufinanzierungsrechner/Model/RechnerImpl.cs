@@ -138,7 +138,8 @@ namespace Baufinanzierungsrechner.Model {
 		public DateTime EndSollzinsbindung => Start.AddYears(Sollzinsbindungslaufzeit);
 
 		public double Restschuld {
-			get => double.Round((Kaufpreis - Eigenkapital) - (Monatsrate * (Math.Pow(1 + Zinssatz / 100, Sollzinsbindungslaufzeit) - 1) / (Sollzinsbindungslaufzeit / 100)), 2);
+			//get => double.Round((Kaufpreis - Eigenkapital) - (Monatsrate * (Math.Pow(1 + Zinssatz / 100, Sollzinsbindungslaufzeit) - 1) / (Sollzinsbindungslaufzeit / 100)), 2);
+			get => this.tilgungsplan.Restschuld;
 		}
 
 		public Tilgungsplan Tilgungsplan => this.tilgungsplan;

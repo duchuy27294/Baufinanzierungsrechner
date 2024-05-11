@@ -1,14 +1,15 @@
-﻿using Baufinanzierungsrechner.Model.Core;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Baufinanzierungsrechner.Model {
-	internal class MonatstilgungImpl : Monatstilgung {
+namespace Baufinanzierungsrechner.Model
+{
+    internal class MonatstilgungImpl : Monatstilgung {
 		private double raten;
 		private double tilgung;
 		private Zins zins;
 		private DateTime? zeitpunkt;
 		private double restschuldVormonat;
+		private Sondertilgung? sondertilgung;
 
 		public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -19,6 +20,7 @@ namespace Baufinanzierungsrechner.Model {
 			this.zeitpunkt = zeitpunkt;
 			this.tilgung = this.raten - zins.Wert;
 			this.zeitpunkt = zeitpunkt;
+			this.sondertilgung = null;
 		}
 
 		public double Tilgung=> this.tilgung;
@@ -44,9 +46,24 @@ namespace Baufinanzierungsrechner.Model {
 			}
 		}
 
-		public double Restschuld => (this.RestschuldVormonat - this.Raten + this.zins.Wert);
+		public double Restschuld {
+			get {
+				if (this.sondertilgung is not null) {
+					return (this.RestschuldVormonat - this.sondertilgung.Wert - this.Raten + this.zins.Wert);
+				}
+				else return (this.RestschuldVormonat - this.Raten + this.zins.Wert);
+			}
+		}
 
 		public double Raten => this.raten;
+
+		public Sondertilgung? Sondertilgung {
+			get => this.sondertilgung;
+			set {
+				this.sondertilgung = value;
+				this.notifyPropertyChanged("Sondertilgung");
+			}
+		}
 
 		private Zins ZinsBerechnen(double zinsProzent, double restschuldVormonat) {
 			return new Zins() {
