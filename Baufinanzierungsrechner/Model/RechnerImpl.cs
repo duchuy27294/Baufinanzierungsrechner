@@ -19,6 +19,7 @@ namespace Baufinanzierungsrechner.Model {
 		private Tilgungsplan tilgungsplan;
 
 		public event PropertyChangedEventHandler? PropertyChanged;
+		public event EventHandler<Tilgungsplan>? TilgungsplanChanged;
 
 		public RechnerImpl(DateTime start, double kaufpreis, double eigenkapital, double grunderwerbssteuerProzent, double notarkostenProzent,
 						  double grundbucheintragProzent, double maklerprovision, double anfangszinssatz, double zinssatz, double tilgungsrateProzent,
@@ -160,6 +161,11 @@ namespace Baufinanzierungsrechner.Model {
 
 		public double JaehrlicheSondertilgungProzent {
 			get => (this.jaehrlicheSondertilgung / this.Nettodarlehen) * 100;
+			set {
+				this.jaehrlicheSondertilgung = this.Nettodarlehen * value / 100;
+				this.UpdateTilgungsplan();
+				this.notifyPropertyChanged("JaehrlicheSondertilgung");
+			}
 		}
 
 		public double Nettodarlehen {
@@ -191,6 +197,7 @@ namespace Baufinanzierungsrechner.Model {
 		private void UpdateTilgungsplan() {
 			this.tilgungsplan = TilgungsplanFactory.CreateTilgungsplan(this.start, this.sollzinsbindungslaufzeit, this.kaufpreis + this.Kaufnebenkosten - this.eigenkapital,
 								this.Tilgungsrate, this.zinssatz, jaehrlicheSondertilgung);
+			TilgungsplanChanged?.Invoke(this, this.tilgungsplan);
 		}
 	}
 }

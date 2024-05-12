@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Baufinanzierungsrechner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64519b6599fdb8aaa070e030c40277e2c426dd30")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bd840cf24e52bea75846107f88cf70b7708b346")]
 [assembly: System.Reflection.AssemblyProductAttribute("Baufinanzierungsrechner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Baufinanzierungsrechner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

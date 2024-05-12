@@ -14,3 +14,6 @@ E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\n
 E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\Baufinanzierungsrechner.pdb
 E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\Baufinanzierungsrechner.genruntimeconfig.cache
 E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\ref\Baufinanzierungsrechner.dll
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\Baufinanzierungsrechner.View.RechnerForm.resources
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\Baufinanzierungsrechner.View.UserControl.PlusMinusControl.resources
+E:\Programmierung\C#\Baufinanzierungsrechner\Baufinanzierungsrechner\obj\Debug\net8.0-windows\Baufinanzierungsrechner.sourcelink.json

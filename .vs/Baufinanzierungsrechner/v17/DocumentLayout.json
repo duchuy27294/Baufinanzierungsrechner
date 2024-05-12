@@ -3,32 +3,68 @@
   "WorkspaceRootPath": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\presenter\\rechnerformpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\presenter\\rechnerformpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\model\\rechnerimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\model\\rechnerimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\model\\rechner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\model\\rechner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|E:\\Programmierung\\C#\\Baufinanzierungsrechner\\baufinanzierungsrechner\\view\\rechnerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\view\\rechnerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\model\\tilgungsplanimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\model\\tilgungsplanimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\model\\tilgungsplanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\model\\tilgungsplanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\model\\zins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\model\\zins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\baufinanzierungsrechner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\baufinanzierungsrechner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\view\\rechnerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\view\\rechnerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\view\\usercontrol\\plusminuscontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\view\\usercontrol\\plusminuscontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\view\\usercontrol\\plusminuscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\view\\usercontrol\\plusminuscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\view\\usercontrol\\plusminuscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\view\\usercontrol\\plusminuscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\view\\rechnerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\view\\rechnerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\model\\rechner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\model\\rechner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\model\\tilgungsplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\model\\tilgungsplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\model\\monatstilgung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\model\\monatstilgung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\model\\tilgungsplanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\model\\tilgungsplanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\view\\rechnerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\view\\rechnerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\model\\monatstilgung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\model\\monatstilgung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\model\\monatstilgungimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,26 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\model\\monatstilgungfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\model\\monatstilgungfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\model\\zins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\model\\zins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\view\\rechnerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\view\\rechnerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\baufinanzierungsrechner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\baufinanzierungsrechner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|e:\\programmierung\\c#\\baufinanzierungsrechner\\baufinanzierungsrechner\\view\\rechnerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|solutionrelative:baufinanzierungsrechner\\view\\rechnerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECE4242A-6C81-4213-B523-3D9EEC46E4C0}|Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj|E:\\Programmierung\\C#\\Baufinanzierungsrechner\\baufinanzierungsrechner\\view\\rechnerform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
@@ -74,66 +90,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RechnerFormPresenter.cs",
+              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Presenter\\RechnerFormPresenter.cs",
+              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Presenter\\RechnerFormPresenter.cs",
+              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Presenter\\RechnerFormPresenter.cs",
+              "RelativeToolTip": "Baufinanzierungsrechner\\Presenter\\RechnerFormPresenter.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T21:36:22.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlusMinusControl.cs [Design]",
+              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\UserControl\\PlusMinusControl.cs",
+              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\View\\UserControl\\PlusMinusControl.cs",
+              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\UserControl\\PlusMinusControl.cs [Design]",
+              "RelativeToolTip": "Baufinanzierungsrechner\\View\\UserControl\\PlusMinusControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:04:24.036Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlusMinusControl.cs",
+              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\UserControl\\PlusMinusControl.cs",
+              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\View\\UserControl\\PlusMinusControl.cs",
+              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\UserControl\\PlusMinusControl.cs",
+              "RelativeToolTip": "Baufinanzierungsrechner\\View\\UserControl\\PlusMinusControl.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:03:07.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlusMinusControl.Designer.cs",
+              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\UserControl\\PlusMinusControl.Designer.cs",
+              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\View\\UserControl\\PlusMinusControl.Designer.cs",
+              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\UserControl\\PlusMinusControl.Designer.cs",
+              "RelativeToolTip": "Baufinanzierungsrechner\\View\\UserControl\\PlusMinusControl.Designer.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAAAG0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:02:57.912Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RechnerForm.cs [Design]",
-              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\RechnerForm.cs",
-              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\View\\RechnerForm.cs",
-              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\RechnerForm.cs [Design]",
-              "RelativeToolTip": "Baufinanzierungsrechner\\View\\RechnerForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T22:03:21.229Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TilgungsplanFactory.cs",
-              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\TilgungsplanFactory.cs",
-              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Model\\TilgungsplanFactory.cs",
-              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\TilgungsplanFactory.cs",
-              "RelativeToolTip": "Baufinanzierungsrechner\\Model\\TilgungsplanFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T21:59:34.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MonatstilgungFactory.cs",
-              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\MonatstilgungFactory.cs",
-              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Model\\MonatstilgungFactory.cs",
-              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\MonatstilgungFactory.cs",
-              "RelativeToolTip": "Baufinanzierungsrechner\\Model\\MonatstilgungFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T22:29:57.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TilgungsplanImpl.cs",
               "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\TilgungsplanImpl.cs",
               "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Model\\TilgungsplanImpl.cs",
               "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\TilgungsplanImpl.cs",
               "RelativeToolTip": "Baufinanzierungsrechner\\Model\\TilgungsplanImpl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T22:22:32.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "Tilgungsplan.cs",
               "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\Tilgungsplan.cs",
               "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Model\\Tilgungsplan.cs",
@@ -146,72 +175,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MonatstilgungImpl.cs",
-              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\MonatstilgungImpl.cs",
-              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Model\\MonatstilgungImpl.cs",
-              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\MonatstilgungImpl.cs",
-              "RelativeToolTip": "Baufinanzierungsrechner\\Model\\MonatstilgungImpl.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAqwDEAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T22:25:23.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RechnerImpl.cs",
               "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\RechnerImpl.cs",
               "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Model\\RechnerImpl.cs",
               "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\RechnerImpl.cs",
               "RelativeToolTip": "Baufinanzierungsrechner\\Model\\RechnerImpl.cs",
-              "ViewState": "AQIAAI8AAAAAAAAAAAAIwJcAAAApAAAA",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAqwLgAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-25T22:20:13.388Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "RechnerForm.Designer.cs",
               "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\RechnerForm.Designer.cs",
               "RelativeDocumentMoniker": "Baufinanzierungsrechner\\View\\RechnerForm.Designer.cs",
               "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\RechnerForm.Designer.cs",
               "RelativeToolTip": "Baufinanzierungsrechner\\View\\RechnerForm.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAACAAAA",
+              "ViewState": "AQIAAPkBAAAAAAAAAAAAAG4CAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T22:31:03.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "Rechner.cs",
               "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\Rechner.cs",
               "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Model\\Rechner.cs",
               "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\Rechner.cs",
               "RelativeToolTip": "Baufinanzierungsrechner\\Model\\Rechner.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAowBoAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-19T22:15:11.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Monatstilgung.cs",
-              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\Monatstilgung.cs",
-              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Model\\Monatstilgung.cs",
-              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\Monatstilgung.cs",
-              "RelativeToolTip": "Baufinanzierungsrechner\\Model\\Monatstilgung.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "DocumentIndex": 2,
+              "Title": "RechnerForm.cs [Design]",
+              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\RechnerForm.cs",
+              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\View\\RechnerForm.cs",
+              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\RechnerForm.cs [Design]",
+              "RelativeToolTip": "Baufinanzierungsrechner\\View\\RechnerForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T22:08:06.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T22:03:21.229Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "Baufinanzierungsrechner.csproj",
               "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj",
               "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj",
@@ -219,11 +234,12 @@
               "RelativeToolTip": "Baufinanzierungsrechner\\Baufinanzierungsrechner.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-19T22:13:30.27Z"
+              "WhenOpened": "2024-02-19T22:13:30.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "Zins.cs",
               "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\Zins.cs",
               "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Model\\Zins.cs",
@@ -236,19 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RechnerForm.cs",
-              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\RechnerForm.cs",
-              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\View\\RechnerForm.cs",
-              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\RechnerForm.cs",
-              "RelativeToolTip": "Baufinanzierungsrechner\\View\\RechnerForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T22:30:48.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Program.cs",
               "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Program.cs",
@@ -256,11 +260,73 @@
               "RelativeToolTip": "Baufinanzierungsrechner\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-19T22:13:18.607Z"
+              "WhenOpened": "2024-02-19T22:13:18.607Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "Monatstilgung.cs",
+              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\Monatstilgung.cs",
+              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Model\\Monatstilgung.cs",
+              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\Monatstilgung.cs",
+              "RelativeToolTip": "Baufinanzierungsrechner\\Model\\Monatstilgung.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T22:08:06.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MonatstilgungImpl.cs",
+              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\MonatstilgungImpl.cs",
+              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Model\\MonatstilgungImpl.cs",
+              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\MonatstilgungImpl.cs",
+              "RelativeToolTip": "Baufinanzierungsrechner\\Model\\MonatstilgungImpl.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAqwDEAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T22:25:23.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MonatstilgungFactory.cs",
+              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\MonatstilgungFactory.cs",
+              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Model\\MonatstilgungFactory.cs",
+              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\MonatstilgungFactory.cs",
+              "RelativeToolTip": "Baufinanzierungsrechner\\Model\\MonatstilgungFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T22:29:57.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RechnerForm.cs",
+              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\RechnerForm.cs",
+              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\View\\RechnerForm.cs",
+              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\RechnerForm.cs",
+              "RelativeToolTip": "Baufinanzierungsrechner\\View\\RechnerForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T22:30:48.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TilgungsplanFactory.cs",
+              "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\TilgungsplanFactory.cs",
+              "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Model\\TilgungsplanFactory.cs",
+              "ToolTip": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Model\\TilgungsplanFactory.cs",
+              "RelativeToolTip": "Baufinanzierungsrechner\\Model\\TilgungsplanFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T21:59:34.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\Form1.cs",
               "RelativeDocumentMoniker": "Baufinanzierungsrechner\\Form1.cs",
@@ -271,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "RechnerForm.resx",
               "DocumentMoniker": "E:\\Programmierung\\C#\\Baufinanzierungsrechner\\Baufinanzierungsrechner\\View\\RechnerForm.resx",
               "RelativeDocumentMoniker": "Baufinanzierungsrechner\\View\\RechnerForm.resx",
